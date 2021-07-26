@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/home_page.css"></head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Zaro's Hotel's</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form">booking</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  hotel's list
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../sites/index.html">Tel-aviv</a></li>
+                  <li><a class="dropdown-item" href="../sites/index2.html">Jerusalem</a></li>
+                  <li><a class="dropdown-item" href="../sites/index3.html">Mitzpe-ramon</a></li>
+                  <li><a class="dropdown-item" href="../sites/index4.html">Tiberias</a></li>
+                  <li><a class="dropdown-item" href="../sites/index5.html">Eilat</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section id="header">
+            <h1>Welcome to Zaor's hotels !</h1>
+            <h4>get ready to enojoy a multiple exciting classy experience.</h4>
+        </section>
+        <section id="info">
+            <div class="hotels" id="telAviv">
+                <a href="./html/tel__aviv.html" class="photoLink"><img class="img" src="./media/11.jpg"></a>
+                <h4>zaro's tel-aviv</h4>
+                <p>location: Tel-aviv</p>
+                <p class="number">phone number:<a href="https://web.whatsapp.com/"> 0534224956</a></p>
+            </div>
+            <div class="hotels" id="jerusalem">
+              <a href="./html/jerusalem.html" class="photoLink"><img class="img" src="./media/22.jpg"></a>
+                <h4>zaro's Jerusalem</h4>
+                <p>location: Jerusalem</p>
+                <p class="number">phone number:<a href="https://web.whatsapp.com/"> 0534224956</a></p>
+            </div>
+            <div class="hotels" id="mitzpeRamon">
+                <a href="./html/mitzpe_ramon.html" class="photoLink"><img class="img" src="./media/33.jpg"></a>
+                <p>location: mitzpe-ramon</p>
+                <p class="number">phone number:<a href="https://web.whatsapp.com/"> 0534224956</a></p>
+            </div>
+            <div class="hotels down" id="tiberias">
+                <a href=".//html/tiberias.html" class="photoLink"><img class="img" src="./media/44.jpg"></a>
+                <h4>zaro's Tiberies</h4>
+                <p>location: Tiberies</p>
+                <p class="number">phone number:<a href="https://web.whatsapp.com/"> 0534224956</a></p>
+            </div>
+            <div class="hotels down" id="eilat">
+                <a href="./html/eilat.html" class="photoLink"><img class="img" src="./media/55.jpg"></a>
+                <h4>zaro's eilat</h4>
+                <p>location: eilat</p>
+                <p class="number">phone number:<a href="https://web.whatsapp.com/"> 0534224956</a></p>
+            </div>
+        </section>
+        <section id="events">
+            <div class="events" id="zumba">
+                <img class="img1" src="./media/event1.jpg">
+                <div class="text">
+                  <h5 class="less">Zumba class</h5>
+                  <p>date: 12/8/21</p>
+                  <p>loacation: at the gym</p>
+                  <p>max capacity: 50 people per lesson</p>
+                </div>
+            </div>
+            <div class="events" id="poolParty">
+                <img class="img1" src="./media/event2.jpg">
+                <div class="text">
+                  <h5 class="less">Pool party</h5>
+                  <p>date: 18/8/21</p>
+                  <p>loacation: at the pool</p>
+                  <p>max capacity: 200 people</p>
+                </div>
+            </div>
+            <div class="events" id="movie">
+                <img class="img1" src="./media/event3.jpg">
+                <div class="text">
+                  <h5>Movie Night</h5>
+                  <p>date: 21/8/21</p>
+                  <p>loacation: movie theater</p>
+                  <p>max capacity: 250 people</p>
+                </div>
+            </div>
+            <div class="events" id="club">
+                <img class="img1" src="./media/event4.jpg">
+                <div class="text">
+                  <h5>party!</h5>
+                  <p>date: 27/8/21</p>
+                  <p>loacation: hotel's club</p>
+                  <p>max capacity: 350 party animal's</p>
+                </div>
+            </div> 
+        </section>
+        <section id="form">
+            <form autocomplete="on">  
+                <h1>booking !</h1>
+                <label for="FirstName">first name :</label><br>
+                <input type="text" name="firstname" placeholder="first name"><br>
+                <label for="lastName">last name :</label><br>
+                <input type="text" name="lastname" placeholder="last name"><br>
+                <label>check in</label><br>
+                <input type="date"><br>
+                <label>check out</label><br>
+                <input type="date">
+                <p id="hotel">choose your hotel:</p>
+                <select><br>
+                  <option>choose your hotel</option>
+                  <option>tel-aviv</option>
+                  <option>jerusalem</option>
+                  <option>mitzpe-ramon</option>
+                  <option>Tiberias</option>
+                  <option>eilat</option>
+                </select><br>
+                <button type="submit">send</button>
+                <button type="reset">reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+      <div>copyright belongs exlusivly to Zaro's hotels</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
